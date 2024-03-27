@@ -1,0 +1,124 @@
+
+/* :root {
+    --clr-body-bg: hsl(0 0% 90%); 
+    --clr-card-bg: hsl(0 0% 180%);
+    --cir-text: hsl(0 0% 15%);
+    --clr-heading: hsl(0 0% 25%) ;
+} */
+body{
+    background-color: var(--clr-body-bg);
+    margin: 0;
+}
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+#title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90px;
+    color: var(--clr-heading);
+    margin-left: 30px;
+}
+.img{
+    width: 45%;
+    height: 60%;
+    margin-left: 5%;
+    margin-top: 10%;
+    border: azure solid;
+    
+}
+    
+.first{
+    margin-top: 100px;
+    
+    border-radius: 5%;
+    color: var(--clr-text);
+    border: azure solid;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    
+
+}
+.second{
+    margin-top: 100px;
+    border: azure solid;
+    text-align: center;
+    border-radius: 5%;
+    color: var(--clr-text);
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.third{
+    margin-top: 100px;
+    border: azure solid;
+    text-align: center;
+    border-radius: 5%;
+    color: var(--clr-text);
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.button{
+    background-color:slategray;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+}
+.p{
+    margin-left: 35%;
+}
+#contents1{
+    display: inline-flex;
+    gap: 15px;
+    
+    
+}
+#contents2{
+    display: inline-flex;
+    gap: 15px;
+}
+.color-picker > fieldset{
+    border: 0;
+    display: flex;
+    gap: 2rem;
+    background-color: #557a95;
+    width: fit-content;
+    border-radius: 0 0 1rem 1rem;
+    
+}
+:root:has(#light:checked){
+    --clr-body-bg: #B1A290;
+    --clr-heading:black;
+    --clr-text:azure;
+}
+:root:has(#dark:checked){
+    --clr-body-bg:#1A1A1D;
+    --clr-heading:azure;
+    --clr-text:#c3073f;
+}
+
+@media (max-width: 1850px){
+    #contents1{
+        display: flex;
+        flex-direction: column;
+    }
+    #contents2{
+        display: flex;
+        flex-direction: column;
+    }
+    .button{
+        font-size: 45px;
+    }
+    .first,.second,.third{
+        font-size: 100px;
+    }
+}
+#damnboi{
+    width:700px;
+    height:500px;
+}
+
+
